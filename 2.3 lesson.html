@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2.3lesson</title>
+    <link rel="stylesheet" href="2.3 lesson.css"/>
+    <script src="2.3 lesson.js"></script>
+</head>
+<body>
+    <div class="background">
+
+    <div class="first_border" id="1">
+        <div class="inside_of_the_box">
+            <div class="picture">
+                <img src="https://parapirogov.ru/wp-content/uploads/2019/02/755-myasnoi-pirog-recept-735x581.jpg">
+            </div>
+            <div class="name_of_cakes">Мясной пирог</div>
+            <div class="quantity_choose">
+                <button  onclick="action(1,'-')">-</button>
+                <span>1</span>
+                <button  onclick="action(1,'+')">+</button>
+            </div>
+            <div class="cost">2000</div>
+            <div class="icon">
+                <button onclick="deleteItem(1)"><span ><img src="images/Иконка_мусорки.svg.png"></span></button>
+            </div>
+        </div>        
+    </div>
+ 
+    <div class="first_border" id="2">
+        <div class="inside_of_the_box">
+            <div class="picture">
+                <img src="https://parapirogov.ru/wp-content/uploads/2019/02/755-myasnoi-pirog-recept-735x581.jpg">
+            </div>
+            <div class="name_of_cakes">Мясной пирог</div>
+            <div class="quantity_choose">
+                <button onclick="action(2,'-')">-</button>
+                <span>1</span>
+                <button onclick="action(2,'+')">+</button>
+            </div>
+            <div class="cost">4000</div>
+            <div class="icon">
+                <button onclick="deleteItem(2)"><span ><img src="images/Иконка_мусорки.svg.png"></span></button>
+            </div>
+        </div>        
+    </div>
+
+    <div class="first_border" id="3">
+        <div class="inside_of_the_box">
+            <div class="picture">
+                <img src="https://parapirogov.ru/wp-content/uploads/2019/02/755-myasnoi-pirog-recept-735x581.jpg">
+            </div>
+            <div class="name_of_cakes">Мясной пирог</div>
+            <div class="quantity_choose">
+                <button onclick="action(3,'-')">-</button>
+                <span>1</span>
+                <button onclick="action(3,'+')">+</button>
+            </div>
+            <div class="cost">1500</div>
+            <div class="icon">
+                <button onclick="deleteItem(3)"><span ><img src="images/Иконка_мусорки.svg.png"></span></button>
+            </div>
+        </div>        
+    </div>
+
+</div>
+<div class="itog">
+    <div>Итог :</div>
+    <div>7500</div>
+</div>
+
+</body>
+</html>

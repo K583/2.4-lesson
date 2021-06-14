@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+
+.background{
+    background: burlywood;
+}
+.background .first_border{
+    border: 1px solid black;
+    display: flex;
+    margin-top: 100px;
+    margin-left: 120px;
+    position: absolute;
+    background-color: bisque;
+    border-radius: 5px;
+}
+.background .first_border:nth-child(2){
+margin-top: 250px;
+}
+.background .first_border:nth-child(3){
+margin-top: 400px;
+}
+.background .first_border .inside_of_the_box{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.background .first_border .inside_of_the_box .cost{
+    font-weight: bold;
+    margin-top: 9px;
+    font-size: 20px;
+}
+.background .first_border .picture img{
+    height: 100px;
+    width: 140px;
+    margin-left: -20px;
+}
+.background .first_border .inside_of_the_box div{
+    margin-left: 40px;
+}
+.background .first_border .inside_of_the_box .name_of_cakes{
+   font-family: Viaoda Libre;
+   font-size: 30px;
+}
+.background .first_border .inside_of_the_box .quantity_choose{
+    margin-top: 10px;
+}
+.background .first_border .inside_of_the_box .icon{
+    margin-left: 10px;
+}
+.background .first_border .inside_of_the_box .icon img{
+    height: 13px;
+    width: 13px;
+    margin-top: 4px;
+    position: relative;
+}
+.background .first_border .inside_of_the_box .icon button{
+    margin-right: 20px;
+    margin-top: 8px;
+    margin-left: 7px;
+}
+
+.itog {
+    font-family: Viaoda Libre;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-top: 550px;
+    padding-left: 750px;
+    display: flex;
+}
+.itog :nth-child(2){
+    padding-left: 30px;
+}
